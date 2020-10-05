@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---->
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="teststyle.css">
+    <script src='testscript.js'></script>
+    <title>Test Page</title>
+</head>
+
+<body>
+    <div>
+        <div class="GristGroup">
+            <!--BuildGrist-->
+            <div class="Grist">
+                <span>Build Grist</span>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="imgs/gushers/BuildGrist.png" alt="TEMPLATE" class="GusherImages"
+                                    onclick="AddGusher('BuildGrist')">
+                            </td>
+                            <td>
+                                <p id="BuildGristCount" class="Storage"></p>
+                            </td>
+                            <td>
+                                /
+                            </td>
+                            <td>
+                                <p id="BuildGristCap" class="Storage"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <div id="BuildGristStorage" class="StorageProgress">
+                        <div id="BuildGristStorageBar" class="StorageBar"></div>
+                    </div>
+                    <div id="BuildGristProgress" class="ExtractorProgress">
+                        <div id="BuildGristProgressBar" class="ExtractorBar"></div>
+                    </div>
+                </div>
+            </div>
+            <table class="UpgradeTable">
+                <tbody>
+                    <!--Scuttler-->
+                    <tr>
+                        <td>Scuttler </td>
+                        <td><Button onclick="AddScuttler('BuildGrist')">Alchemize</Button></td>
+                        <td><span id="BuildGristScuttlerCount"></span> <span>/</span> <span id="BuildGristScuttlerCap"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Cost:</td>
+                        <td>
+                            <ul>
+                                <li>20 Build Grist</li>
+                                <li>1 Dowel</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--Dowel-->
+            <div class="Grist">
+                <span>Dowel</span>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="imgs/dowels/Dowel_Blue.png" alt="TEMPLATE" class="DowelImages"
+                                    onclick="AddDowel()">
+                            </td>
+                            <td>
+                                <p id="DowelCount" class="Storage"></p>
+                            </td>
+                            <td>
+                                /
+                            </td>
+                            <td>
+                                <p id="DowelCap" class="Storage"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <div id="DowelStorage" class="StorageProgress">
+                        <div id="DowelStorageBar" class="StorageBar"></div>
+                    </div>
+                    <div id="DowelProgress" class="ExtractorProgress">
+                        <div id="DowelProgressBar" class="ExtractorBar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="GristGroup">
+            <!--Basalt-->
+            <div class="Grist">
+                <span>Basalt</span>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="imgs/blocks/Basalt.png" alt="TEMPLATE" class="BlockImages"
+                                    onclick="AddBlock('Basalt')">
+                            </td>
+                            <td>
+                                <p id="BasaltCount" class="Storage"></p>
+                            </td>
+                            <td>
+                                /
+                            </td>
+                            <td>
+                                <p id="BasaltCap" class="Storage"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <div id="BasaltStorage" class="StorageProgress">
+                        <div id="BasaltStorageBar" class="StorageBar"></div>
+                    </div>
+                    <div id="BasaltProgress" class="ExtractorProgress">
+                        <div id="BasaltProgressBar" class="ExtractorBar"></div>
+                    </div>
+                </div>
+            </div>
+            <table class="UpgradeTable">
+                <tbody>
+                    <!--Scuttler-->
+                    <tr>
+                        <td>Scuttler </td>
+                        <td><Button onclick="AddScuttler('Basalt')">Alchemize</Button></td>
+                        <td><span id="BasaltScuttlerCount">0</span> <span>/</span> <span id="BasaltScuttlerCap"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Cost:</td>
+                        <td>
+                            <ul>
+                                <li>20 Build Grist</li>
+                                <li>10 Basalt</li>
+                                <li>1 Dowel</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <!--Roamer-->
+                    <tr>
+                        <td>Roamer </td>
+                        <td><Button >Alchemize</Button></td>
+                        <td><span ></span> <span>/</span><span ></span></td>
+                    </tr>
+                    <tr>
+                        <td>Cost:</td>
+                        <td>
+                            <ul>
+                                <li>20 Build Grist</li>
+                                <li>1 Dowel</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <!--Strider-->
+                    <tr>
+                        <td>Strider </td>
+                        <td><Button>Alchemize</Button></td>
+                        <td><span>0</span> <span>/</span> <span>5</span></td>
+                    </tr>
+                    <tr>
+                        <td>Cost:</td>
+                        <td>
+                            <ul>
+                                <li>20 Build Grist</li>
+                                <li>1 Dowel</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
