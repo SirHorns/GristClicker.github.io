@@ -1,12 +1,3 @@
-<html lang="en">
-<!---->
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="teststyle.css">
-    <script src='testscript.js' type="text/javascript"></script>
-    <title>Grist Clicker</title>
-</head>
-
 <body>
     <div>
         <div class="GristGroup">
@@ -179,5 +170,3 @@
         </div>
     </div>
 </body>
-
-</html>
