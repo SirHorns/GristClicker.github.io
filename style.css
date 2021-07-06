@@ -1,0 +1,108 @@
+@font-face {
+  font-family: TYPOSTUCK;
+  src: url(fonts/TYPOSTUCK.ttf);
+}
+body{
+  font-family: TYPOSTUCK;
+  font-size: 25px;
+  overflow: auto;
+}
+
+.StorageProgress{
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: auto;
+  background-color: silver;
+  border: 5px solid gray;
+}
+.StorageBar{
+  width: 0%;
+  height: 10px;
+  background-color: aqua;
+}
+
+.ExtractorProgress{
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: auto;
+  background-color: silver;
+  border: 5px solid gray;
+}
+.ExtractorBar{
+  width: 0%;
+  height: 15px;
+  background-color: blue;
+}
+
+.GristGroup{
+  
+  margin: 0px 0px 0px 0px;
+  
+}
+.UpgradeTable td{
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.UpgradeTable ul{
+  list-style-type:none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Grist{
+  width: 150px;
+  margin: 2px;
+  margin: 1px 1px 1px 1px;
+}
+.Grist p{
+  text-align: right;
+  margin: 0px 0px 0px 0px;
+}
+.Grist td{
+  width: 100%;  
+}
+.Alchemy{
+  
+}
+
+
+.BlockImages{
+  border: 2px solid pink;
+  width: 40px;
+  height: 40px;
+}
+.BlockImages:hover{
+  background-color: pink;
+}
+.GemImages{
+  width: 40px;
+  height: 30px;
+}
+.GusherImages{
+  border: 2px solid pink;
+  width: 40px;
+  height: 40px;
+}
+.GusherImages:hover{
+  background-color: pink;
+}
+.OilImages{
+  width: 30px;
+  height: 40px;
+}
+.MiscImages{
+  width: 30px;
+  height: 30px;
+}
+.DowelImages{
+  border: 2px solid pink;
+  width: 40px;
+  height: 60px;
+}
+.DowelImages:hover{
+  background-color: pink;
+}
